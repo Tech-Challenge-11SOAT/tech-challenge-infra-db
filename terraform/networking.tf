@@ -2,8 +2,8 @@
 data "terraform_remote_state" "eks" {
   backend = "s3"
   config = {
-    bucket = "soat-terraform-states"   # mesmo bucket usado no infra-k8s
-    key    = "eks/terraform.tfstate"   # chave exclusiva do state do EKS
+    bucket = "tech-challenge-soat11-terraform-state"   
+    key    = "eks/terraform/state"   
     region = "us-east-1"
   }
 }
