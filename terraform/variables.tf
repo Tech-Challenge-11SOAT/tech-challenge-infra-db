@@ -15,13 +15,12 @@ variable "db_name" {
 
 variable "db_username" {
   type    = string
-  default = "root"
+  sensitive = true
 }
 
 variable "db_password" {
   type    = string
   sensitive = true
-  default = "root" 
   
 }
 
