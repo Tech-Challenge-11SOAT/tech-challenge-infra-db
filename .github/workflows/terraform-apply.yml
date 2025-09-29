@@ -1,6 +1,7 @@
 name: Terraform Apply (RDS)
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - develop   # ou main 
