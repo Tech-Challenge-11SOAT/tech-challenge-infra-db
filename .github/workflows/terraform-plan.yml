@@ -1,6 +1,7 @@
 name: Terraform Plan (RDS)
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - develop
