@@ -1,6 +1,6 @@
 # Banco de Dados RDS - Terraform
 
-Este diretório contém a configuração do **Amazon RDS (MySQL)** utilizada no projeto **Tech Challenge - Fast Food**.  
+Este diretório contém a configuração do **Amazon RDS (Postgres)** utilizada no projeto **Tech Challenge - Fast Food**.  
 Toda a lógica de provisionamento é feita com **Terraform**, garantindo padronização e reprodutibilidade da infraestrutura.
 
 ## 📖 Documentação Completa
